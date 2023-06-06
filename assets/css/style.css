@@ -296,11 +296,11 @@ input {
 
 .home__social {
     position: absolute;
-    top: 1.8rem;
+    top: -5.2rem;
     left: 0;
     display: flex;
     align-items: center;
-    column-gap: 3.5rem;
+    column-gap: 1.5rem;
 }
 
 .home__social-follow {
@@ -1427,6 +1427,9 @@ textarea.input {
 
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
+    .contact__form{
+        margin-top: 1rem;
+    }
     .about__img {
         width: 250px;
     }
@@ -1556,12 +1559,13 @@ textarea.input {
 
     .home__social-follow {
         font-size: var(--smaller-font-size);
-        transform: rotate(90deg);
     }
 
     .home__social-links {
         flex-direction: column;
         row-gap: .25rem;
+        display: flex;
+    flex-direction: row-reverse;
     }
 
     .home__social-link {
