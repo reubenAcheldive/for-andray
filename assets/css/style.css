@@ -1550,6 +1550,8 @@ textarea.input {
         right: -1rem;
         flex-direction: column;
         row-gap: 3.5rem;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .home__social-follow {
