@@ -280,6 +280,7 @@ input {
     height: 100vh;
     display: grid;
     justify-content: end;
+    margin-right: 150px !important;
 }
 
 .home__data {
@@ -815,6 +816,7 @@ input {
     display: grid;
     justify-items: end;
     text-align: end;
+    justify-content: space-evenly;
 }
 
 .services__icon {
@@ -1536,10 +1538,12 @@ textarea.input {
         height: initial;
         align-items: initial;
         padding: 7rem 0 2rem;
+        margin-right: 25px !important;
     }
 
     .home__container {
         row-gap: 2rem;
+  
     }
 
     .home__img {
